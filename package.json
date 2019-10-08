@@ -36,7 +36,7 @@
     "@types/node": "~8.9.4",
     "chai": "^4.2.0",
     "codelyzer": "~4.5.0",
-    "cucumber": "^6.0.2",
+    "cucumber": "5.1.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.1.1",
