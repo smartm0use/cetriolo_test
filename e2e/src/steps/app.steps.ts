@@ -16,5 +16,13 @@ Given(/^I am on the home page$/, async () => {
 When(/^I do nothing$/, () => {});
 
 Then(/^I should see the title$/, async () => {
-  expect(await page.getTitleText()).to.equal('Welcome to angular-cli-cucumber-demo!');
+  expect(await page.getTitleText()).to.equal('Welcome to cetriolo!');
+});
+
+When(/^I click on cetriolo button$/, async () => {
+  expect(await page.clickCetrioloButton());
+});
+
+Then(/^I see cucumber image$/, async () => {
+  expect(await page.hasCucumberImage()).to.be.true;
 });
