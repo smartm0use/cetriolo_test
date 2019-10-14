@@ -16,7 +16,11 @@ Given(/^I am on the home page$/, async () => {
 When(/^I do nothing$/, () => {});
 
 Then(/^I should see the title$/, async () => {
-  expect(await page.getTitleText()).to.equal('Welcome to cetriolo!');
+  expect(await page.getTitleText()).to.equal('Cetriolo app!');
+});
+
+Given(/^I am on the About page$/, async () => {
+  await page.navigateToAbout();
 });
 
 When(/^I click on cetriolo button$/, async () => {

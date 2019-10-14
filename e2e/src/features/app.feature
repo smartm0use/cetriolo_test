@@ -7,6 +7,6 @@ Feature: Go to the home
     Then I should see the title
 
   Scenario: Cucumber Image
-    Given I am on the home page
+    Given I am on the About page
     When I click on cetriolo button
     Then I see cucumber image
